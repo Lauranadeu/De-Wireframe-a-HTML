@@ -18,17 +18,18 @@ nav {
     background-color: rgb(170, 177, 174);
     height: 5%;
     margin-bottom: 10px;
+    padding: 15px;
 }
 
 nav ul li {
-    display: inline-block;
- 
+    display: inline-block; 
 }
 
 aside {
     background-color: rgb(170, 177, 174);
     height: 20%;
     margin-bottom: 10px;
+    padding: 15px;
 }
 
 article {
@@ -36,6 +37,7 @@ article {
     background-color: rgb(88, 88, 82);
     margin: auto;
     height: 100%;
+    padding: 15px;
 }
 
 section {
@@ -47,6 +49,7 @@ section {
 footer {
     height: 10%;
     background-color: rgb(88, 88, 82);
+    padding: 15px;
 }
 
 body {
