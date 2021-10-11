@@ -14,6 +14,17 @@ header {
     margin-bottom: 10px;
 }
 
+.container-header {
+    width: 100%;
+    display: flex;
+}
+
+.nav-logo {
+    width: 175px;
+    padding: 35px 0px 0px 30px;
+
+}
+
 nav {
     background-color: rgb(170, 177, 174);
     height: 5%;
@@ -73,16 +84,10 @@ ul {
     background-color: gray;
 }
 
-.container-header {
+
+
+.nav-menu-xarxessocials li {
+
     
 }
 
-.nav-menu-xarxessocials {
- 
-}
-
-.nav-logo {
-    width: 150px;
-    padding: 15px 10px 10px 30px;
-
-}
