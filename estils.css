@@ -20,8 +20,8 @@ header {
 }
 
 .nav-logo {
-    width: 175px;
-    padding: 35px 0px 0px 30px;
+    width: 210px;
+    padding: 32px 0px 0px 30px;
 
 }
 
@@ -31,26 +31,42 @@ header {
     text-align: end;
     padding-right: 25px;
     font-size: 30px;
+    
 }
 
 
 nav {
-    background-color: rgb(170, 177, 174);
+    background-color: rgb(88, 88, 82);
     height: 5%;
     margin-bottom: 10px;
-    width: 100%;
-    display: inline-block;
-    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
 
+nav ul {
+    list-style: none;
+    display: flex;
+   
 }
 
 nav ul li {
+    width: auto;
     display: inline-block;
-    justify-content: space-between | space-around;
-
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    border-right: solid 3px rgb(170, 177, 174);
     
 }
 
+nav ul.nav-menu {
+    flex: 15;
+    justify-content: space-between;
+
+}
 
 
 aside {
@@ -88,11 +104,10 @@ body {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
-ul {
-    list-style: none;
-}
+
 
 .container {
     width: 70%;
