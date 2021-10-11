@@ -52,7 +52,7 @@ nav ul {
 }
 
 nav ul li {
-    width: auto;
+    width: 100%;
     display: inline-block;
     justify-content: space-between;
     align-items: center;
@@ -63,17 +63,39 @@ nav ul li {
 }
 
 nav ul.nav-menu {
-    flex: 15;
+    width: 100%;
     justify-content: space-between;
 
 }
 
 
 aside {
-    background-color: rgb(170, 177, 174);
+    background-color: rgb(88, 88, 82);
     height: 20%;
     margin-bottom: 10px;
-    padding: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+aside ul.aside-menu {
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+   
+}
+
+aside ul li {
+    width: 32%;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    border-right: solid 3px rgb(170, 177, 174);
+
+    
+
 }
 
 article {
@@ -113,6 +135,6 @@ a {
     width: 70%;
     height: 900px;
     margin: auto;
-    background-color: gray;
+    background-color: rgb(216, 212, 208);
 }
 
