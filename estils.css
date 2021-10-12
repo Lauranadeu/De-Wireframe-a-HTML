@@ -86,42 +86,28 @@ nav ul.nav-menu {
 
 
 aside {
-    background-color: rgb(88, 88, 82);
+    background-color: rgb(204, 204, 130);
     height: 20%;
     margin-bottom: 10px;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
 }
 
-aside ul.aside-menu {
-    width: 100%;
-    height: 100%;
-    justify-content: space-between;
-   
+.imatges-aside {
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   gap: 15px;
+   text-align: center;
+   font-size: 12px;
 }
 
-aside ul li {
-    width: 32%;
-    display: inline-block;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+.imatges-aside img {
+    height: 14vh;
+
     text-align: center;
-    border-right: solid 3px rgb(170, 177, 174);
 }
 
-/*
-.destacats {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.imatges-aside a:hover {
+    border-bottom: 2px solid black ;
 }
-
-.destacats img {
-    width: 100%;
-    height: 180px;
-}
-*/
 
 
 article {
@@ -144,6 +130,13 @@ article {
     margin-top: 5px;
 }
 
+.entrades p {
+    padding-bottom: 10px;
+}
+
+.entrades a:hover {
+    border-bottom: 2px solid black ;
+}
 
 
 
