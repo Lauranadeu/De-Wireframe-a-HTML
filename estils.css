@@ -23,6 +23,15 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
+.container-header {
+    width: 100%;
+    display: flex;
+}
+
+.container-header img {
+    width: 40px;
+
+}
 
 header {
     background-image: url(imatges/cap2.jpg);
@@ -30,10 +39,7 @@ header {
     margin-bottom: 10px;
 }
 
-.container-header {
-    width: 100%;
-    display: flex;
-}
+
 
 .nav-logo {
     width: 210px;
