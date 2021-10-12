@@ -133,15 +133,17 @@ article {
 }
 
 section {
-    height: 50%;
+    height: 53%;
     background-color: rgb(170, 177, 174);
     margin-bottom: 10px;
 }
 
 footer {
-    height: 10%;
+    height: 7%;
     background-color: rgb(88, 88, 82);
-    padding: 15px;
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
 }
 
 
